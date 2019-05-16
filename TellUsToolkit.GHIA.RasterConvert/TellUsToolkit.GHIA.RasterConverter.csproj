@@ -82,6 +82,7 @@
     </Compile>
     <Compile Include="Engine\AppEngine.cs" />
     <Compile Include="Models\Application\ApplicationModel.cs" />
+    <Compile Include="Models\RasterMetadataModel.cs" />
     <Compile Include="Models\SampleModel.cs" />
     <Compile Include="Models\ShellModel.cs" />
     <Compile Include="Models\UsersModel.cs" />
@@ -99,10 +100,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ViewModels\RasterMetadataViewModel.cs" />
     <Compile Include="ViewModels\UsersViewModel.cs" />
     <Compile Include="ViewModels\UserViewModel.cs" />
     <Compile Include="ViewModels\SampleViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="Views\RasterMetadataView.xaml.cs">
+      <DependentUpon>RasterMetadataView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SampleView.xaml.cs">
       <DependentUpon>SampleView.xaml</DependentUpon>
     </Compile>
@@ -160,6 +165,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Resources\Styles\ControlStylesResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RasterMetadataView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

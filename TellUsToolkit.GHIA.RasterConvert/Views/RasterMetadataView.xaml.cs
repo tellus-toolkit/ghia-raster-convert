@@ -11,7 +11,6 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -21,26 +20,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TupleGeo.Apps;
-using TupleGeo.Apps.Presentation;
 using TellUsToolkit.GHIA.RasterConverter.Engine;
 using TellUsToolkit.GHIA.RasterConverter.ViewModels;
+using TupleGeo.Apps;
+using TupleGeo.Apps.Presentation;
 
 #endregion
 
 namespace TellUsToolkit.GHIA.RasterConverter.Views {
 
   /// <summary>
-  /// The User View.
+  /// The RasterMetadataView.
   /// </summary>
-  public partial class UserView : UserControl, IView {
+  public partial class RasterMetadataView : UserControl, IView {
 
     #region Constructors - Destructors
 
     /// <summary>
-    /// Initializes the <see cref="UserView"/>.
+    /// Initializes the <see cref="RasterMetadataView"/>.
     /// </summary>
-    public UserView() {
+    public RasterMetadataView() {
       InitializeComponent();
       InitializeView();
     }
@@ -52,15 +51,16 @@ namespace TellUsToolkit.GHIA.RasterConverter.Views {
     /// <summary>
     /// Initializes the view.
     /// </summary>
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes")]
     private void InitializeView() {
 
       try {
         // Make sure this executes in runtime.
         if (!DesignerProperties.GetIsInDesignMode(this)) {
           // The viewmodel of this view acts as a datacontext. Bind the viewmodel here.
-          UserViewModel userViewModel = (UserViewModel)((IViewModel)(AppEngine.Instance.Catalog.GetViewModel(this.GetType())));
-          this.DataContext = userViewModel;
-          
+          RasterMetadataViewModel rasterMetadataViewModel = (RasterMetadataViewModel)((IViewModel)(AppEngine.Instance.Catalog.GetViewModel(this.GetType())));
+          this.DataContext = rasterMetadataViewModel;
+
           // The event procedures reside in to the viewmodel. Binding is performed by calling the
           // 'SubscribeToEvents' method of the view model passing a dictionary of controls.
           // Bind the view model event procedures here.
@@ -73,7 +73,7 @@ namespace TellUsToolkit.GHIA.RasterConverter.Views {
           // ...
           //observedControlsDictionary.Add(this.controlN.Name, this.controlN); // TODO: Change key and value here.
           // Call the SubscribeToEvents method of the viewmodel.
-          //userViewModel.SubscribeToEvents(observedControlsDictionary);
+          //sampleViewModel.SubscribeToEvents(observedControlsDictionary);
 
           // Get any CollectionViewSources defined in the view as resources.
           //Dictionary<string, CollectionViewSource> collectionViewSourcesDictionary = new Dictionary<string, CollectionViewSource>();
@@ -86,12 +86,12 @@ namespace TellUsToolkit.GHIA.RasterConverter.Views {
           //collectionViewSourcesDictionary.Add("collectionNViewSourceName", collectionNViewSource); // TODO: Change key and value here.
 
           // Set the collection view sources in the viewmodel.
-          //userViewModel.SetCollectionViewSources(collectionViewSourcesDictionary);
+          //sampleViewModel.SetCollectionViewSources(collectionViewSourcesDictionary);
         }
       }
       catch (Exception ex) {
-        //AppEngine.Instance.LogError(ex, "ShellView - InitializeView()");
-        string error = "An error has occurred while binding to the view 'UserView'\r\n\r\n" +
+        AppEngine.LogError(ex, "RasterMetadataView - InitializeView()");
+        string error = "An error has occurred while binding to the view 'RasterMetadataView'\r\n\r\n" +
                        "Error Message: " + ex.Message + "\r\n\r\n";
         if (ex.InnerException != null) {
           error += string.Format(CultureInfo.InvariantCulture, "Inner Exception: {0}", ex.InnerException.Message);
@@ -105,12 +105,14 @@ namespace TellUsToolkit.GHIA.RasterConverter.Views {
 
     #region IView Members
 
+    private const string _viewName = "RasterMetadataView";
+
     /// <summary>
     /// Gets the view name.
     /// </summary>
     public string ViewName {
       get {
-        return "UserView";
+        return _viewName;
       }
     }
 
