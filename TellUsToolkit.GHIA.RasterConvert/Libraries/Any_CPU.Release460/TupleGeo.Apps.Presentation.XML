@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TupleGeo.Apps.Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:TupleGeo.Apps.Presentation.AppCatalog">
+            <summary>
+            The application catalog provides a registry of models, views and viewmodels.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.AppCatalog.RegisterViewModel(System.Type,System.Type)">
+            <summary>
+            Registers a <see cref="T:TupleGeo.Apps.Presentation.IViewModel">view model</see>.
+            </summary>
+            <param name="viewType">The type of the view which is used as the key in the registry.</param>
+            <param name="viewModelType">The type of the viewmodel which is used as the value in the registry.</param>
+            <remarks>
+            <para>Types of view models are registered using a dictionary having the types of views as keys.</para>
+            <para>
+            The view must implement the <see cref="T:TupleGeo.Apps.IView"/> interface and the view model
+            must implement the <see cref="T:TupleGeo.Apps.Presentation.IViewModel"/> interface.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.AppCatalog.RegisterModel(System.Type,System.Type)">
+            <summary>
+            Registers a <see cref="T:TupleGeo.Apps.IModel">model</see>.
+            </summary>
+            <param name="viewModelType">The type of view model which is used as the key in the registry.</param>
+            <param name="modelType">The type of the model which is used as the value in the registry.</param>
+            <remarks>
+            <para>Types of models are registered using a dictionary having the types of view models as keys.</para>
+            <para>
+            The view model must implement the <see cref="T:TupleGeo.Apps.Presentation.IViewModel"/> interface and the model
+            must implement the <see cref="T:TupleGeo.Apps.IModel"/> interface.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.AppCatalog.GetSingletonView(System.Type)">
+            <summary>
+            Gets the view singleton instance associated with the specified type.
+            </summary>
+            <param name="viewType">The <see cref="T:System.Type"/> of the view.</param>
+            <returns>An <see cref="T:TupleGeo.Apps.IView"/> instance.</returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.AppCatalog.GetNewView(System.Type)">
+            <summary>
+            Gets a new view instance associated with the specified type.
+            </summary>
+            <param name="viewType">The <see cref="T:System.Type"/> of the view.</param>
+            <returns>An <see cref="T:TupleGeo.Apps.IView"/> instance.</returns>
+            <remarks>This instance is not registered in the relevant dictionary.</remarks>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.AppCatalog.GetViewModel(System.Type)">
+            <summary>
+            Gets the view model associated with the specified view type;
+            </summary>
+            <param name="viewType">The <see cref="T:System.Type"/> of the view.</param>
+            <returns>An <see cref="T:TupleGeo.Apps.Presentation.IViewModel"/> instance.</returns>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.BaseViewModel`1">
+            <summary>
+            All Views inherit from this class.
+            </summary>
+            <typeparam name="TModel">The model which is associated with this view.</typeparam>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.BaseViewModel`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TupleGeo.Apps.Presentation.BaseViewModel`1"/> class.
+            </summary>
+            <param name="model">The model.</param>
+        </member>
+        <member name="P:TupleGeo.Apps.Presentation.BaseViewModel`1.Model">
+            <summary>
+            Gets / Sets the associated model.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.Apps.Presentation.BaseViewModel`1.Name">
+            <summary>
+            Gets the name of the view model.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.Apps.Presentation.BaseViewModel`1.Title">
+            <summary>
+            Gets the title of the view model.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.Commands.ActionCommand">
+            <summary>
+            ActionCommand is a custom <see cref="T:System.Windows.Input.ICommand"/> used in Model - View - ViewModel.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean})">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.Apps.Presentation.Commands.ActionCommand"/>.
+            </summary>
+            <param name="executeAction">The action to be executed.</param>
+            <param name="canExecuteFunction">The function which determines if the action can be executed.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.AddListener``1(System.ComponentModel.INotifyPropertyChanged,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            Adds a weak listener to the property of an object that implements the <see cref="T:System.ComponentModel.INotifyPropertyChanged"/> interface.
+            </summary>
+            <typeparam name="TEntity">The entity used.</typeparam>
+            <param name="source">The source of the command.</param>
+            <param name="property">The property of the <typeparamref name="TEntity"/>.</param>
+            <remarks>The method can be used to chain together multiple listeners.</remarks>
+            <returns>An ActionCommand.</returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.AddListener``1(TupleGeo.General.ComponentModel.ObservableObject{``0})">
+            <summary>
+            Adds a listener to an <see cref="T:TupleGeo.General.ComponentModel.ObservableObject`1">ObservableObject</see> of <typeparamref name="TEntity"/>.
+            </summary>
+            <typeparam name="TEntity">The entity used.</typeparam>
+            <param name="observableObject">The observable object.</param>
+            <returns>An ActionCommand.</returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.AddObservableCollectionListener(System.Collections.Specialized.INotifyCollectionChanged)">
+            <summary>
+            Adds a weak listener to a collection implementing the <see cref="T:System.Collections.Specialized.INotifyCollectionChanged"/>.
+            </summary>
+            <param name="source">The source of the command.</param>
+            <remarks>The method can be used to chain together multiple listeners.</remarks>
+            <returns>An ActionCommand.</returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.AddObservableCollectionListener``1(System.Collections.ObjectModel.ObservableCollection{``0})">
+            <summary>
+            Adds a listener to an ObservableCollection of <typeparamref name="TEntity"/>.
+            </summary>
+            <typeparam name="TEntity">The entity used.</typeparam>
+            <param name="observableCollection">The observable collection used.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="observableCollection"/> is <c>null</c>.
+            </exception>
+            <remarks>The method can be used to chain together multiple listeners.</remarks>
+            <returns>An ActionCommand.</returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.OnCanExecuteChanged">
+            <summary>
+            Fires when <see cref="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.CanExecute(System.Object)">CanExecute</see> has been changed.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.ObservableObject_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Occurs when the ObservableObject has been changed.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The PropertyChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.ObservableCollection_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Occurs when the ObservableCollection has been changed.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The NotifyCollectionChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.RequeryCanExecute(System.Object)">
+            <summary>
+            Re-queries whether the command can execute or not.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.RequeryCanExecute(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Re-queries whether the command can execute or not.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="propertyChangedEventArgs">The PropertyChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.RequeryCanExecute(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Re-queries whether the command can execute or not.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="notifyCollectionChangedEventArgs">The NotifyCollectionChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.CanExecute(System.Object)">
+            <summary>
+            Indicates whether the command can execute or not.
+            </summary>
+            <param name="parameter">The parameter of the command.</param>
+            <returns>A value indicating whether the command can execute or not.</returns>
+        </member>
+        <member name="E:TupleGeo.Apps.Presentation.Commands.ActionCommand.CanExecuteChanged">
+            <summary>
+            Fires when the <see cref="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.CanExecute(System.Object)">CanExecute</see> has been changed.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Commands.ActionCommand.Execute(System.Object)">
+            <summary>
+            Executes the command.
+            </summary>
+            <param name="parameter">The parameter of the command.</param>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.IViewModel">
+            <summary>
+            The interface implemented by all view model classes.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.Apps.Presentation.IViewModel.Name">
+            <summary>
+            Gets the name of the view model.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.Apps.Presentation.IViewModel.Title">
+            <summary>
+            Gets the title of the view model.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.IViewModelMethods">
+            <summary>
+            The methods that view models might need to implement.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.IViewModelMethods.SubscribeToEvents(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Binds this view model to events raised by its corresponding view.
+            </summary>
+            <param name="triggeringControlsDictionary">The controls whose events will be observed.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.IViewModelMethods.UnsubscribeFromEvents(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Removes event subscriptions of this view model.
+            </summary>
+            <param name="triggeringControlsDictionary">The controls whose events will be stopped being observed.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.IViewModelMethods.SetCollectionViewSources(System.Collections.Generic.Dictionary{System.String,System.Windows.Data.CollectionViewSource})">
+            <summary>
+            Sets the <see cref="T:System.Windows.Data.CollectionViewSource">CollectionViewSources</see> for this model.
+            </summary>
+            <param name="collectionViewSourcesDictionary">
+            The dictionary of <see cref="T:System.Windows.Data.CollectionViewSource">CollectionViewSources</see>
+            that will be used to display data.
+            </param>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.Observers.IListeners">
+            <summary>
+            Provides listeners for property and collection changes.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.IListeners.AddPropertyChangedListener``1(System.ComponentModel.INotifyPropertyChanged,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            Adds a weak listener to the property of an object that implements the <see cref="T:System.ComponentModel.INotifyPropertyChanged"/> interface.
+            </summary>
+            <typeparam name="TModel">A model entity whose properties will be observed.</typeparam>
+            <param name="source">The source of the command.</param>
+            <param name="prop">The property of the <typeparamref name="TModel"/>.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.IListeners.AddPropertyChangedListener``1(TupleGeo.General.ComponentModel.ObservableObject{``0})">
+            <summary>
+            Adds a listener to an <see cref="T:TupleGeo.General.ComponentModel.ObservableObject`1">ObservableObject</see> of <typeparamref name="TModel"/>.
+            </summary>
+            <typeparam name="TModel">A model entity whose properties will be observed.</typeparam>
+            <param name="observableObject">The observable object.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.IListeners.AddCollectionChangedWeakListener(System.Collections.Specialized.INotifyCollectionChanged)">
+            <summary>
+            Adds a weak listener to a collection implementing the <see cref="T:System.Collections.Specialized.INotifyCollectionChanged"/>.
+            </summary>
+            <param name="source">The source of the command.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.IListeners.AddCollectionChangedListener``1(System.Collections.ObjectModel.ObservableCollection{``0})">
+            <summary>
+            Adds a listener to an <see cref="T:System.Collections.ObjectModel.ObservableCollection`1">ObservableCollection</see> of <typeparamref name="TModel"/>.
+            </summary>
+            <typeparam name="TModel">A model entity whose properties will be observed.</typeparam>
+            <param name="observableCollection">The observable collection used.</param>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.Observers.CentralizedObserver">
+            <summary>
+            The CentralizedObserver provides the abstract implementation of an observer that can be used to attach listeners
+            for property and collection changes when there is a need for these changes to be managed centrally.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.#ctor">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.Apps.Presentation.Observers.CentralizedObserver"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.OnPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            <para>Fires when a property has been changed.</para>
+            <para>Override this to listen to property changes and to provide custom reaction logic to these changes.</para>
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="propertyChangedEventArgs">The PropertyChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.OnCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            <para>Fires when a collection has been changed.</para>
+            <para>Override this to listen to property changes and to provide custom reaction logic to these changes.</para>
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="notifyCollectionChangedEventArgs">The NotifyCollectionChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.ObservableObject_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Occurs when the ObservableObject has been changed.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The PropertyChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.ObservableCollection_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Occurs when the ObservableCollection has been changed.
+            </summary>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The NotifyCollectionChangedEventArgs.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.AddPropertyChangedListener``1(System.ComponentModel.INotifyPropertyChanged,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            Adds a weak listener to the property of an object that implements the <see cref="T:System.ComponentModel.INotifyPropertyChanged"/> interface.
+            </summary>
+            <typeparam name="TModel">A model entity whose properties will be observed.</typeparam>
+            <param name="source">The source of the command.</param>
+            <param name="prop">The property of the <typeparamref name="TModel"/>.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.AddPropertyChangedListener``1(TupleGeo.General.ComponentModel.ObservableObject{``0})">
+            <summary>
+            Adds a listener to an <see cref="T:TupleGeo.General.ComponentModel.ObservableObject`1">ObservableObject</see> of <typeparamref name="TModel"/>.
+            </summary>
+            <typeparam name="TModel">A model entity whose properties will be observed.</typeparam>
+            <param name="observableObject">The observable object.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.AddCollectionChangedWeakListener(System.Collections.Specialized.INotifyCollectionChanged)">
+            <summary>
+            Adds a weak listener to a collection implementing the <see cref="T:System.Collections.Specialized.INotifyCollectionChanged"/>.
+            </summary>
+            <param name="source">The source of the command.</param>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.CentralizedObserver.AddCollectionChangedListener``1(System.Collections.ObjectModel.ObservableCollection{``0})">
+            <summary>
+            Adds a listener to an <see cref="T:System.Collections.ObjectModel.ObservableCollection`1">ObservableCollection</see> of <typeparamref name="TModel"/>.
+            </summary>
+            <typeparam name="TModel">A model entity whose properties will be observed.</typeparam>
+            <param name="observableCollection">The observable collection used.</param>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.Observers.PropertyObserver`1">
+            <summary>
+            Monitors the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged">PropertyChanged</see> event of an object that
+            implements <see cref="T:System.ComponentModel.INotifyPropertyChanged"/>, and executes callback methods (i.e. handlers) registered for
+            properties of that object.
+            </summary>
+            <typeparam name="TPropertySource">The type of object to monitor for property changes.</typeparam>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.PropertyObserver`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of <see cref="T:TupleGeo.Apps.Presentation.Observers.PropertyObserver`1"/>.
+            </summary>
+            <param name="propertySource">The object to monitor for property changes.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="propertySource"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.PropertyObserver`1.RegisterHandler(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Action{`0})">
+            <summary>
+            Registers a callback to be invoked when the <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged">PropertyChanged</see>
+            event has been raised for the specified property.
+            </summary>
+            <param name="expression">A lambda expression like <code>n => n.PropertyName</code></param>
+            <param name="handler">The callback to invoke when the property has changed.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="expression"/> or <paramref name="handler"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="expression"/> does not provide a property name.
+            </exception>
+            <returns>
+            The object on which this method was invoked, to allow for multiple invocations chained together.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.PropertyObserver`1.UnregisterHandler(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Removes the callback associated with the specified property.
+            </summary>
+            <param name="expression">A lambda expression like <code>n => n.PropertyName</code></param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="expression"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="expression"/> does not provide a property name.
+            </exception>
+            <returns>
+            The object on which this method was invoked, to allow for multiple invocations chained together.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.PropertyObserver`1.System#Windows#IWeakEventListener#ReceiveWeakEvent(System.Type,System.Object,System.EventArgs)">
+            <summary>
+            Receives a weak event.
+            </summary>
+            <param name="managerType">The Type of the manager.</param>
+            <param name="sender">The sender of the event.</param>
+            <param name="e">The event arguments.</param>
+            <returns>
+            A value determining whether the event was handled or not.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.PropertyObserver`1.GetPropertySource">
+            <summary>
+            Gets the target of the property source.
+            </summary>
+            <returns>
+            A <typeparamref name="TPropertySource"/> object.
+            </returns>
+        </member>
+        <member name="T:TupleGeo.Apps.Presentation.Observers.WeakEventManagerBase`1">
+            <summary>
+            The base class for a WeakEventManager.
+            </summary>
+            <typeparam name="TEventArgs">The event arguments.</typeparam>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.WeakEventManagerBase`1.#ctor(System.EventHandler{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:TupleGeo.Apps.Presentation.Observers.WeakEventManagerBase`1"/>.
+            </summary>
+            <param name="handler">The handler for the event.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="handler"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:TupleGeo.Apps.Presentation.Observers.WeakEventManagerBase`1.System#Windows#IWeakEventListener#ReceiveWeakEvent(System.Type,System.Object,System.EventArgs)">
+            <summary>
+            Receives events from the centralized event manager.
+            </summary>
+            <param name="managerType">The type of the WeakEventManager calling this method.</param>
+            <param name="sender">Object that originated the event.</param>
+            <param name="e">The event data.</param>
+            <returns>
+            A <c>true</c> value if the listener handled the event.
+            </returns>
+            <remarks>
+            It is considered an error by the WeakEventManager handling in WPF to register a listener for an event that
+            the listener does not handle. Regardless, the method should return a <c>false</c> value
+            if it receives an event that it does not recognize or handle.
+            </remarks>
+        </member>
+    </members>
+</doc>

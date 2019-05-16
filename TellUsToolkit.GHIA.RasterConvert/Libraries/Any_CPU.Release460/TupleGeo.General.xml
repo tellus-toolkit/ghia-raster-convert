@@ -1,0 +1,2093 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TupleGeo.General</name>
+    </assembly>
+    <members>
+        <member name="T:TupleGeo.General.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_DataSource">
+            <summary>
+              Looks up a localized string similar to Data Source=.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionDataSourceNotSpecified">
+            <summary>
+              Looks up a localized string similar to Data Source not specified..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionGettingDataSource">
+            <summary>
+              Looks up a localized string similar to Error getting DataSource..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionGettingInitialCatalog">
+            <summary>
+              Looks up a localized string similar to Error getting Initial Catalog..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionGettingPassword">
+            <summary>
+              Looks up a localized string similar to Error getting Password..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionGettingPersistSecurityInfo">
+            <summary>
+              Looks up a localized string similar to Error getting Persist Security Info..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionGettingUserID">
+            <summary>
+              Looks up a localized string similar to Error getting UserID..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionInitialCatalogNotSpecified">
+            <summary>
+              Looks up a localized string similar to Initial Catalog not specified..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionInitializationVectorNotSpecified">
+            <summary>
+              Looks up a localized string similar to Error decrypting password. Initialization vector not specified..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionSecurityKeyNotSpecified">
+            <summary>
+              Looks up a localized string similar to Error decrypting password. Security key not specified..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionUniqueUserIDNotFound">
+            <summary>
+              Looks up a localized string similar to Unique UserID not found..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionUserIDNotFound">
+            <summary>
+              Looks up a localized string similar to UserID not found..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_ExceptionUserIDNotSpecified">
+            <summary>
+              Looks up a localized string similar to UserID not specified..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_InitialCatalog">
+            <summary>
+              Looks up a localized string similar to Initial Catalog=.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_Password">
+            <summary>
+              Looks up a localized string similar to Password=.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetails_PersistSecurityInfo">
+            <summary>
+              Looks up a localized string similar to Persist Security Info=.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Data_SqlServer_ConnectionDetials_UserID">
+            <summary>
+              Looks up a localized string similar to User ID=.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.General_PropertyCouldNotConvertValueToString">
+            <summary>
+              Looks up a localized string similar to Could not convert property value to string..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.General_PropertyHasMoreThanOneGenericArguments">
+            <summary>
+              Looks up a localized string similar to Property has more than one generic arguments..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.General_PropertyIsNotOfAPrimitiveTypeException">
+            <summary>
+              Looks up a localized string similar to Property is not of a primitive type..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.General_PropertyNotFound">
+            <summary>
+              Looks up a localized string similar to Property &apos;{0}&apos; was not found..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.General_PropertyNullableTypeIsNotOfAPrimitiveType">
+            <summary>
+              Looks up a localized string similar to Property nullable type is not of a primitive type..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Reflection_AssemblyExtensions_ExceptionTypeNotFoundInAssembly">
+            <summary>
+              Looks up a localized string similar to Type {0} not found in assembly..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Reflection_AssemblyExtensions_ExceptionTypeNotFoundOrMoreThanOneTypesFoundInAssembly">
+            <summary>
+              Looks up a localized string similar to Type {0} not found or more than one found in assembly..
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Properties.Resources.Security_CryptographicString_ExceptionNullKeyOrInitializationVector">
+            <summary>
+              Looks up a localized string similar to Secret key and Initialization vector must not be null..
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.Attributes.AttributeHelper">
+            <summary>
+            A Helper object to deal with <see cref="T:System.Attribute">attributes</see>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetMatchingCustomAttributes(System.Object,System.Type)">
+            <summary>
+            Gets all matching custom attributes for a specified object based on specified attribute type.
+            </summary>
+            <param name="value">The object that is used to find attached attributes.</param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <returns>
+            An object array containing the <see cref="T:System.Attribute">attributes</see> found.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetMatchingAttributes(System.Object,System.Type)">
+            <summary>
+            Gets all matching attributes for a specified object based on specified attribute type.
+            </summary>
+            <param name="value">The object that is used to find attached attributes.</param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <returns>
+            An object array containing the <see cref="T:System.Attribute">attributes</see> found.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetMatchingAttributes(System.Type,System.Type)">
+            <summary>
+            Gets all matching attributes for a specified type based on specified attribute type.
+            </summary>
+            <param name="type">The Type that is used to find attached attributes.</param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <returns>
+            An object array containing the <see cref="T:System.Attribute">attributes</see> found.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetMatchingEnumeratedValueAttributes(System.Object,System.Type)">
+            <summary>
+            Gets the matching attributes for a specified enumerated field based on a specified attribute type.
+            </summary>
+            <param name="enumValue">
+            The Enumerated value used to retrieve its attributes.
+            </param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="enumValue"/> or <paramref name="attributeType"/> is <c>null</c>.
+            </exception>
+            <returns>
+            An object array containing the matching <see cref="T:System.Attribute">attributes</see>.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetFirstMatchingCustomAttribute(System.Object,System.Type)">
+            <summary>
+            Gets the first matching custom attribute for a specified object based on a specified attribute type.
+            </summary>
+            <param name="value">The object that is used to find the attached attribute.</param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <returns>
+            An object containing the <see cref="T:System.Attribute">attribute</see>.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetFirstMatchingCustomAttribute(System.Type,System.Type)">
+            <summary>
+            Gets the first matching custom attribute for a specified object based on a specified attribute type.
+            </summary>
+            <param name="type">The Type that is used to find the attached attribute.</param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <returns>An object containing the <see cref="T:System.Attribute">attribute</see>.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetFirstMatchingAttribute(System.Object,System.Type)">
+            <summary>
+            Gets the first matching attribute for a specified object based on a specified attribute type.
+            </summary>
+            <param name="value">The object that is used to find the attached attribute.</param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <returns>An object containing the <see cref="T:System.Attribute">attribute</see>.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetFirstMatchingAttribute(System.Type,System.Type)">
+            <summary>
+            Gets the first matching attribute for a specified type based on a specified attribute type.
+            </summary>
+            <param name="type">The Type that is used to find the attached attribute.</param>
+            <param name="attributeType">The Type of the attribute to seek for.</param>
+            <returns>An object containing the <see cref="T:System.Attribute">attribute</see>.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.AttributeHelper.GetFirstMatchingEnumeratedValueAttribute(System.Object,System.Type)">
+            <summary>
+            Gets the first matching attribute for a specified enumerated field based on a specified attribute type.
+            </summary>
+            <param name="enumValue">
+            The Enumerated value used to retrieve its attribute.
+            </param>
+            <param name="attributeType">The Type of the attribute.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="enumValue"/> or <paramref name="attributeType"/> is <c>null</c>.
+            </exception>
+            <returns>An object containing the matching attribute.</returns>
+        </member>
+        <member name="T:TupleGeo.General.Attributes.DescriptionAttribute">
+            <summary>
+            A custom attribute used to add descriptive information.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.DescriptionAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute"/> by setting its description
+            irrelevant to a culture.
+            </summary>
+            <param name="description">The description that the <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute"/> sets.</param>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.DescriptionAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute"/> by setting its description
+            for a specified culture.
+            </summary>
+            <param name="description">The description that this attribute sets.</param>
+            <param name="culture">The culture string representation associated with this description.</param>
+        </member>
+        <member name="P:TupleGeo.General.Attributes.DescriptionAttribute.Description">
+            <summary>
+            Gets the Description.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Attributes.DescriptionAttribute.Culture">
+            <summary>
+            Gets the Culture.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.DescriptionAttribute.GetEnumeratedValueDescriptionAttribute(System.Object)">
+            <summary>
+            Gets the neutral culture
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description.
+            </summary>
+            <param name="enumValue">
+            The Enumerated value used to retrieve its
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description.
+            </param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="enumValue"/> is <c>null</c>.</exception>
+            <returns>A string with the neutral culture description.</returns>
+            <remarks>
+            The neutral culture description is not associated with a specific culture.
+            Thus the <see cref="P:TupleGeo.General.Attributes.DescriptionAttribute.Culture">DescriptionAttribute.Culture</see>
+            property must be null. In such a case a neutral culture description is specified. If no neutral culture
+            description has been found, a zero length string will be returned instead.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.DescriptionAttribute.GetEnumeratedValueDescriptionAttribute(System.Object,System.String)">
+            <summary>
+            Gets the
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description.
+            associated with the specified culture.
+            </summary>
+            <param name="enumValue">
+            The Enumerated value used to retrieve its
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description.
+            </param>
+            <param name="culture">
+            The culture of the description.
+            </param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="enumValue"/> is <c>null</c>.</exception>
+            <returns>A string with the description.</returns>
+            <remarks>
+            If no description will be found for the specified culture, the neutral culture description will be returned. 
+            If no neutral culture description has been found, a zero length string will be returned instead.
+            </remarks>
+        </member>
+        <member name="T:TupleGeo.General.Attributes.ResourceDescriptionAttribute">
+            <summary>
+            A custom attribute used to add a localizable description.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Attributes.ResourceDescriptionAttribute.#ctor(System.String,System.Type)">
+            <summary>
+            Initializes a <see cref="T:TupleGeo.General.Attributes.ResourceDescriptionAttribute"/>.
+            </summary>
+            <param name="description">The description that the attribute sets.</param>
+            <param name="resourcesType">The Type of the resources.</param>
+        </member>
+        <member name="P:TupleGeo.General.Attributes.ResourceDescriptionAttribute.Description">
+            <summary>
+            Gets the string value from the resources.
+            </summary>
+            <returns>A string containing the description stored in this attribute.</returns>
+        </member>
+        <member name="P:TupleGeo.General.Attributes.ResourceDescriptionAttribute.ResourcesType">
+            <summary>
+            Gets the Resources Type.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.ComponentModel.EnumDescriptionConverter">
+            <summary>
+            Converts an enumerated value to its
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">attribute description</see> and vice versa.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.#ctor(System.Type)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.ComponentModel.EnumDescriptionConverter"/>.
+            </summary>
+            <param name="type">The Type to be used.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="type"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescription(System.Enum)">
+            <summary>
+            Gets the neutral culture
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description value
+            of an enum value.
+            </summary>
+            <param name="enumValue">An enumerated value.</param>
+            <returns>
+            A string containing the description (if any) of the enumerated value.
+            </returns>
+            <remarks>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see>
+            has been set for the enumerated value, a string representation of the name of the enumerated value is returned instead.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescription(System.Enum,System.String)">
+            <summary>
+            Gets the 
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description value
+            of an enum value in the specified culture.
+            </summary>
+            <param name="enumValue">An enumerated value.</param>
+            <param name="culture">The culture of the description.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="enumValue"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="culture"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>
+            A string containing the description (if any) of the enumerated value.
+            </returns>
+            <remarks>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see>
+            has been set for the enumerated value, a string representation of the name of the enumerated value is returned instead.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescription(System.Type,System.String)">
+            <summary>
+            Gets the neutral culture 
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description value
+            of a specified enum value.
+            </summary>
+            <param name="type">The type of the enumeration.</param>
+            <param name="name">The name of an enumerated value.</param>
+            <returns>
+            A string containing the description (if any) of the enumerated value.
+            </returns>
+            <remarks>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see>
+            has been set for the enumerated value, a string representation of the name of the enumerated value is returned instead.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescription(System.Type,System.String,System.String)">
+            <summary>
+            Gets the 
+            <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see> description value
+            of a specified enum value in the specified culture.
+            </summary>
+            <param name="type">The type of the enumeration.</param>
+            <param name="name">The name of an enumerated value.</param>
+            <param name="culture">The culture of the description.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="type"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="name"/> or <paramref name="culture"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>
+            A string containing the description (if any) of the enumerated value.
+            </returns>
+            <remarks>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute"/> has been set for the enumerated value,
+            a string representation of the name of the enumerated value is returned instead.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescriptions(System.Enum)">
+            <summary>
+            Gets the neutral culture descriptions of all enumerated values found in an enumeration.
+            </summary>
+            <param name="enumValue">An enumerated value used to find out the enumeration it belongs.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="enumValue"/> is <c>null</c>.</exception>
+            <returns>
+            An array of strings containing the descriptions of the enumerated values.
+            </returns>
+            <remarks>
+            <para>
+            If no enumerated values found in the enumeration a <c>null</c> is returned instead.
+            </para>
+            <para>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute"/> has been set for the enumerated values,
+            a string representation of the name of the enumerated values is returned instead.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescriptions(System.Enum,System.String)">
+            <summary>
+            Gets the descriptions in a specified culture of all enumerated values found in an enumeration.
+            </summary>
+            <param name="enumValue">An enumerated value used to find out the enumeration it belongs.</param>
+            <param name="culture">The culture of the descriptions.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="enumValue"/> is <c>null</c>.</exception>
+            <returns>
+            An array of strings containing the descriptions of the enumerated values.
+            </returns>
+            <remarks>
+            <para>
+            If no enumerated values found in the enumeration a null is returned instead.
+            </para>
+            <para>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see>
+            has been set for the enumerated values, a string representation of the name of the enumerated values is returned instead.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescriptions(System.Type)">
+            <summary>
+            Gets the neutral culture descriptions of all enumerated values found in an enumeration.
+            </summary>
+            <param name="type">The type of the enumeration.</param>
+            <returns>
+            An array of strings containing the descriptions of the enumerated values.
+            </returns>
+            <remarks>
+            <para>
+            If no enumerated values found in the enumeration a <c>null</c> is returned instead.
+            </para>
+            <para>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see>
+            has been set for the enumerated values, a string representation of the name of the enumerated values is returned instead.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumDescriptions(System.Type,System.String)">
+            <summary>
+            Gets the descriptions of all enumerated values found in an enumeration for a specified culture.
+            </summary>
+            <param name="type">The type of the enumeration.</param>
+            <param name="culture">The culture of the descriptions.</param>
+            <returns>
+            An array of strings containing the descriptions of the enumerated values.
+            </returns>
+            <remarks>
+            <para>
+            If no enumerated values found in the enumeration a <c>null</c> is returned instead.
+            </para>
+            <para>
+            If no <see cref="T:TupleGeo.General.Attributes.DescriptionAttribute">DescriptionAttribute</see>
+            has been set for the enumerated values, a string representation of the name of the enumerated values is returned instead.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.GetEnumValue(System.Type,System.String)">
+            <summary>
+            Gets the value of an enumeration, based on it's description attribute or named value.
+            </summary>
+            <param name="type">The Type of the enumeration.</param>
+            <param name="description">The description or name of the element.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="type"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="description"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>
+            An object containing the value or the description if it was not found.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <summary>
+            Converts a string containing the description of an enumerated value in to the enumerated value.
+            </summary>
+            <param name="context">The context used in the conversion.</param>
+            <param name="culture">the culture used in the conversion.</param>
+            <param name="value">The description of an enumerated value. (should be a <see cref="T:System.String"/>).</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="value"/> is <c>null</c>.</exception>
+            <returns>
+            An object containing the enumerated value.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumDescriptionConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+            <summary>
+            Converts an enumerated value to a <see cref="T:System.String"/>.
+            </summary>
+            <param name="context">The context used in the conversion.</param>
+            <param name="culture">The culture used in the conversion.</param>
+            <param name="value">The enumerated value which is converted.</param>
+            <param name="destinationType">The destination type. (Should be <see cref="T:System.String"/>).</param>
+            <returns>
+            An object containing a <see cref="T:System.String"/> with the converted enumerated value.
+            </returns>
+        </member>
+        <member name="T:TupleGeo.General.ComponentModel.EnumNameDescriptionPair">
+            <summary>
+            An object containing an enumeration name and an enumeration description.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.EnumNameDescriptionPair.#ctor(System.String,System.String)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.ComponentModel.EnumNameDescriptionPair"/>.
+            </summary>
+            <param name="name">The name of the enumeration value.</param>
+            <param name="description">The description of the enumeration value.</param>
+        </member>
+        <member name="P:TupleGeo.General.ComponentModel.EnumNameDescriptionPair.Name">
+            <summary>
+            Gets / Sets the name of the enumerated value.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.ComponentModel.EnumNameDescriptionPair.Description">
+            <summary>
+            Gets / Sets the description of the enumerated value.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.ComponentModel.ObservableObject`1">
+            <summary>
+            An object that is observed by other objects for value changes in its properties.
+            </summary>
+            <typeparam name="T">Any object that needs to be observed.</typeparam>
+        </member>
+        <member name="E:TupleGeo.General.ComponentModel.ObservableObject`1.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.ObservableObject`1.OnPropertyChanged(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Executed when a property value changes.
+            </summary>
+            <param name="prop">The property.</param>
+        </member>
+        <member name="M:TupleGeo.General.ComponentModel.ObservableObject`1.OnPropertyChanged(System.String)">
+            <summary>
+            Called when a property value changes.
+            </summary>
+            <param name="propertyName">The property name.</param>
+        </member>
+        <member name="T:TupleGeo.General.Data.FilterType">
+            <summary>
+            Specifies the types of filter queries.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.Data.FilterType.Contains">
+            <summary>
+            The filter specifies that the like operator should be used and
+            that the filter string should be matched inside the target string.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.Data.FilterType.StartsWith">
+            <summary>
+            The filter specifies that the like operator should be used and
+            that the filter string should be matched from the beginning of
+            the target string.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.Data.FilterType.EndsWith">
+            <summary>
+            The filter specifies that the like operator should be used and
+            that the filter string should be matched at the end of
+            the target string.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.Data.FilterType.Exact">
+            <summary>
+            The filter is used in conjunction with the equals operator.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.Data.SqlServer.ConnectionDetails">
+            <summary>
+            The details used to define an SQL Server connection as they appear in a connection string.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.#ctor">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetails"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetails"/> setting the connection string and whether to encrypt password or not.
+            </summary>
+            <param name="connectionString">
+            The connection string used to updated the ConnectionDetails object.
+            </param>
+            <param name="encryptPassword">
+            Specifies whether the password should be encrypted or not.
+            </param>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.DataSource">
+            <summary>
+            Gets / Sets the name of the data source. It should be the name of the SQL Server hosting machine.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.InitialCatalog">
+            <summary>
+            Gets / Sets the name of the initial catalog. It should be the name of the database.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.IsPersistSecurityInfo">
+            <summary>
+            Gets / Sets whether the security info is persisted or not.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.SqlServerUserCollection">
+            <summary>
+            Gets the collection of <see cref="T:TupleGeo.General.Data.SqlServer.SqlServerUser">SqlServerUsers</see>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64Key(System.String)">
+            <summary>
+            Sets the base64 key used to decrypt the password.
+            </summary>
+            <param name="base64Key">The base64 key string.</param>
+            <remarks>
+            The key must be a base64 string used as a key feed for the <see cref="T:TupleGeo.General.Security.CryptographicString"/> object.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64InitializationVector(System.String)">
+            <summary>
+            Sets the base64 initialization vector used to decrypt the password.
+            </summary>
+            <param name="base64InitializationVector">The base64 initialization vector.</param>
+            <remarks>
+            The initialization vector must be a base64 string used as an initialization vector
+            feed for the <see cref="T:TupleGeo.General.Security.CryptographicString"/> object.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.ToConnectionString(System.String)">
+            <summary>
+            Converts the connection Details in to an SQL Server connection string.
+            </summary>
+            <param name="user">
+            The username that will be used to form the connection string.
+            </param>
+            <exception cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            <para>
+            Thrown when no initialization vector has been specified. A way to resolve this is to call
+            <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64InitializationVector(System.String)">SetBase64InitializationVector</see>.
+            </para>
+            <para>
+            Thrown when no security key has been specified.
+            A way to resolve this is to call <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64Key(System.String)">SetBase64Key</see>.
+            </para>
+            <para>Thrown when no unique user id could be retrieved.</para>
+            <para>Thrown when <paramref name="user"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.</para>
+            <para>
+            Thrown when <see cref="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.InitialCatalog">InitialCatalog</see> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </para>
+            <para>
+            Thrown when <see cref="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.DataSource">DataSource</see> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </para>
+            </exception>
+            <remarks>
+            In case the <see cref="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.SqlServerUserCollection"/> property is populated with users having
+            encrypted passwords a call to methods <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64Key(System.String)">SetBase64Key</see> and 
+            <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64InitializationVector(System.String)">SetBase64InitializationVector</see> must be made
+            first in order for this method to succeed returning a connection string.
+            </remarks>
+            <returns>A string containing the SQL Server connection string.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.ToConnectionString(System.String,System.String,System.String)">
+            <summary>
+            Converts the connection Details in to an SQL Server connection string.
+            </summary>
+            <param name="user">
+            The username that will be used to form the connection string.
+            </param>
+            <param name="base64Key">
+            The base64 key used for encrypting passwords.
+            </param>
+            <param name="base64InitializationVector">
+            The base64 initialization vector used for encrypting passwords.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            When <paramref name="base64Key"/> or <paramref name="base64InitializationVector"/> is <c>null</c>.
+            </exception>
+            <remarks>
+            In case the <see cref="P:TupleGeo.General.Data.SqlServer.ConnectionDetails.SqlServerUserCollection"/> property is populated with users having
+            encrypted passwords a call to methods <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64Key(System.String)">SetBase64Key</see> and 
+            <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64InitializationVector(System.String)">SetBase64InitializationVector</see> must be made
+            first in order for this method to succeed returning a connection string.
+            </remarks>
+            <returns>A string containing the SQL Server connection string.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.FromConnectionString(System.String,System.Boolean)">
+            <summary>
+            Updates the connection details using a connection string.
+            </summary>
+            <param name="connectionString">
+            The connection string used to updated the ConnectionDetails object.
+            </param>
+            <param name="encryptPassword">
+            Specifies whether the password should be encrypted or not.
+            </param>
+            <remarks>
+            In case the bEncryptPassword argument is set to true a call to methods
+            <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64Key(System.String)"/> and <see cref="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetBase64InitializationVector(System.String)"/>
+            must be made first in order for this method to succeed setting the
+            ConnectionDetails object using a connection string.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.FromConnectionString(System.String,System.String,System.String)">
+            <summary>
+            Updates the connection details using a connection string.
+            </summary>
+            <param name="connectionString">
+            The connection string used to updated the ConnectionDetails object.
+            </param>
+            <param name="base64Key">
+            The base64 key used for encrypting passwords.
+            </param>
+            <param name="base64InitializationVector">
+            The base64 initialization vector used for encrypting passwords.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="base64Key"/> or <paramref name="base64InitializationVector"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <remarks>
+            The method assumes that the password will be encrypted.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetDataSource(System.String@,System.Collections.Generic.IEnumerable{System.String}@)">
+            <summary>
+            Sets the data source.
+            </summary>
+            <param name="dataSource">The data source.</param>
+            <param name="dataSourceTokens">The data source tokens.</param>
+            <exception cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            Thrown when <paramref name="dataSourceTokens"/> is <c>null</c> or when their count is not <c>1</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetInitialCatalog(System.String@,System.String[],System.Collections.Generic.IEnumerable{System.String}@)">
+            <summary>
+            Sets the initial catalog.
+            </summary>
+            <param name="initialCatalog">The initial catalog.</param>
+            <param name="tokens">The connection string tokens.</param>
+            <param name="dataSourceTokens">The data source tokens.</param>
+            <exception cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            Thrown when <paramref name="dataSourceTokens"/> is <c>null</c> or when their count is not <c>1</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetPersistSecurityInfo(System.Boolean@,System.String[],System.Collections.Generic.IEnumerable{System.String}@)">
+            <summary>
+            Sets the PersistSecurityInfo.
+            </summary>
+            <param name="persistSecurityInfo">The PersistSecurityInfo.</param>
+            <param name="tokens">The connection string tokens.</param>
+            <param name="dataSourceTokens">The data source tokens.</param>
+            <exception cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            Thrown when <paramref name="dataSourceTokens"/> is <c>null</c> or when their count is not <c>1</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetUserID(System.String@,System.String[],System.Collections.Generic.IEnumerable{System.String}@)">
+            <summary>
+            Sets the userID.
+            </summary>
+            <param name="userID">The UserID.</param>
+            <param name="tokens">The connection string tokens.</param>
+            <param name="dataSourceTokens">The data source tokens.</param>
+            <exception cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            Thrown when <paramref name="dataSourceTokens"/> is <c>null</c> or when their count is not <c>1</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.SetPassword(System.Boolean,System.String@,System.String[],System.Collections.Generic.IEnumerable{System.String}@)">
+            <summary>
+            Sets the password.
+            </summary>
+            <param name="encryptPassword">Indicates whether to encrypt the password or not.</param>
+            <param name="password">The password.</param>
+            <param name="tokens">The connection string tokens.</param>
+            <param name="dataSourceTokens">The data source tokens.</param>
+            <exception cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            Thrown when <paramref name="dataSourceTokens"/> is <c>null</c> or when their count is not <c>1</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetails.UpdateUserList(System.Boolean,System.String,System.String)">
+            <summary>
+            Get the <see cref="T:TupleGeo.General.Data.SqlServer.SqlServerUser"/>.
+            </summary>
+            <param name="encryptPassword">Indicates whether to encrypt the password or not.</param>
+            <param name="userID">The UserID.</param>
+            <param name="password">The password.</param>
+            <exception cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            Thrown when users is <c>null</c> or when their count is not <c>1</c>.
+            </exception>
+        </member>
+        <member name="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException">
+            <summary>
+            The exception used for problems with the <see cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetails"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetailsException.#ctor">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetailsException.#ctor(System.String)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException"/>.
+            </summary>
+            <param name="message">The message of the exception.</param>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetailsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException"/>.
+            </summary>
+            <param name="message">The message of the exception.</param>
+            <param name="innerException">The inner exception.</param>
+        </member>
+        <member name="M:TupleGeo.General.Data.SqlServer.ConnectionDetailsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Data.SqlServer.ConnectionDetailsException"/>.
+            </summary>
+            <param name="info">The SerializationInfo.</param>
+            <param name="context">The StreamingContext.</param>
+        </member>
+        <member name="T:TupleGeo.General.Data.SqlServer.SqlServerUser">
+            <summary>
+            Defines an SQL Server user as it appears in a connection string.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.SqlServerUser.UserName">
+            <summary>
+            Gets / Sets the username.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.SqlServerUser.Password">
+            <summary>
+            Gets / Sets the password.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.SqlServerUser.IsPasswordPersisted">
+            <summary>
+            Gets / Sets whether the password of the user is persisted or not.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.General.Data.SqlServer.SqlServerUser.IsPasswordEncrypted">
+            <summary>
+            Gets / Sets whether the password of the user is encrypted or not.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.FileSystem.PathsUtility">
+            <summary>
+            The PathsUtility is a static class providing common utilities for managing paths.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.FileSystem.PathsUtility.AddBackslashToPath(System.String)">
+            <summary>
+            Adds a backslash to the specified path.
+            </summary>
+            <param name="path">The string representing the path.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="path"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>A string representing the path with the added backslash.</returns>
+            <remarks>If the path ends with a backslash the method returns the path as it is.</remarks>
+        </member>
+        <member name="M:TupleGeo.General.FileSystem.PathsUtility.AddSlashToPath(System.String)">
+            <summary>
+            Adds a slash to the specified path.
+            </summary>
+            <param name="path">The string representing the path.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="path"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>A string representing the path with the added slash.</returns>
+            <remarks>If the path ends with a slash the method returns the path as it is.</remarks>
+        </member>
+        <member name="M:TupleGeo.General.FileSystem.PathsUtility.GetParentPath(System.String)">
+            <summary>
+            Gets the parent path from a given path.
+            </summary>
+            <param name="path">The path to get its parent.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="path"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>A <see cref="T:System.String"/> storing the parent path.</returns>
+            <remarks>
+            In case the path is the full path to a file, the path returned is that storing the file.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.FileSystem.PathsUtility.GetFileExtension(System.String)">
+            <summary>
+            Gets the file extension from a given path.
+            </summary>
+            <param name="path">The path from which to extract the file extension.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="path"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>A <see cref="T:System.String"/> storing the file extension.</returns>
+            <remarks>
+            In case file extension can not be retrieved, a <see cref="F:System.String.Empty"/> is returned instead.
+            </remarks>
+        </member>
+        <member name="T:TupleGeo.General.FileTypes.EsriFileType">
+            <summary>
+            Types of vector files.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.EsriFileType.Mxd">
+            <summary>
+            ESRI ArcMap map document file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.EsriFileType.Mxt">
+            <summary>
+            Adobe Illustrator graphics file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.EsriFileType.Pat_ArcInfo">
+            <summary>
+            Polygon Attribute Table file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.EsriFileType.Shp">
+            <summary>
+            ESRI Shapefile format.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.FileTypes.ExecutableFileType">
+            <summary>
+            Types of executable files.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.ExecutableFileType.Dll">
+            <summary>
+            Dynamic link library file type.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.ExecutableFileType.Exe">
+            <summary>
+            Executable file type.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.FileTypes.RasterFileType">
+            <summary>
+            Types of raster files.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Bmp">
+            <summary>
+            Bitmap image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Gif">
+            <summary>
+            Graphics interchange file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Jpg">
+            <summary>
+            JPEG image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Jpeg">
+            <summary>
+            JPEG image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Png">
+            <summary>
+            Portable network graphic file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Psd">
+            <summary>
+            Photoshop Document.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Psp">
+            <summary>
+            Paintshop Pro image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Sid">
+            <summary>
+            LizardTech MrSID image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.RasterFileType.Tif">
+            <summary>
+            Tagged image file format.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.FileTypes.SystemFileType">
+            <summary>
+            Types of system files.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.SystemFileType.Ani">
+            <summary>
+            Windows Animated Cursor file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.SystemFileType.Cab">
+            <summary>
+            Windows Cabinet file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.SystemFileType.Cur">
+            <summary>
+            Windows Cursor file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.SystemFileType.Ico">
+            <summary>
+            Icon file format.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.FileTypes.TextFileType">
+            <summary>
+            Types of text files.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Csv">
+            <summary>
+            Comma separated value file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Doc">
+            <summary>
+            Microsoft Word Document file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Htm">
+            <summary>
+            Hypertext markup language file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Html">
+            <summary>
+            Hypertext markup language file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Pdf">
+            <summary>
+            Adobe portable file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Rtf">
+            <summary>
+            Rich text file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Txt">
+            <summary>
+            Plain text file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.TextFileType.Xml">
+            <summary>
+            Extensible file format.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.FileTypes.VectorFileType">
+            <summary>
+            Types of vector files.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Acorn">
+            <summary>
+            Acorn Draw file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.AI">
+            <summary>
+            Adobe Illustrator graphics file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Ait">
+            <summary>
+            Adobe Illustrator template file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Art">
+            <summary>
+            Adobe Illustrator graphics file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Awg">
+            <summary>
+            Ability Draw file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cdr">
+            <summary>
+            CorelDRAW vector image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cdr3">
+            <summary>
+            CorelDRAW 3 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cdr4">
+            <summary>
+            CorelDRAW 4 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cdr5">
+            <summary>
+            CorelDRAW 5 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cdr6">
+            <summary>
+            CorelDRAW 6 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cdrw">
+            <summary>
+            CorelDRAW file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cdt">
+            <summary>
+            CorelDRAW Template file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cgm">
+            <summary>
+            Computer graphics metafile file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cit">
+            <summary>
+            SeeYou vector maps file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Cmx">
+            <summary>
+            CorelDRAW vector image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Csh">
+            <summary>
+            Adobe Photoshop shapes file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Csl">
+            <summary>
+            Corel symbol library file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Ctn">
+            <summary>
+            Cadterns Sloper File file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Dgn">
+            <summary>
+            Intergraph design file file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Dlg">
+            <summary>
+            Digital Line Graph vector image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.DO">
+            <summary>
+            Digital Line Graph optional vector data file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Drw">
+            <summary>
+            Vector file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Dwg">
+            <summary>
+            Autocad drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Dxb">
+            <summary>
+            AutoCAD drawing exchange file format (Binary).
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Dxf">
+            <summary>
+            AutoCAD drawing exchange file format (AScII).
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.E2d">
+            <summary>
+            2-dimensional vector graphics file format (Used by the editor which is included in JFire).
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Egt">
+            <summary>
+            EGT Universal Document file format, (EGT Vector Draw images are used to draw vector to a website).
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Emb">
+            <summary>
+            Orchida Embroidery System embroidery pattern file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Emf">
+            <summary>
+            Enhanced Windows MetaFile format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Eps">
+            <summary>
+            Encapsulated Postscript file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.FH">
+            <summary>
+            Image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Fh10">
+            <summary>
+            Adobe FreeHand 10 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Fh11">
+            <summary>
+            Adobe FreeHand 11 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Fh8">
+            <summary>
+            Adobe FreeHand 8 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Fh9">
+            <summary>
+            Adobe FreeHand 9 drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Ft10">
+            <summary>
+            Adobe FreeHand 10 template file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Ft11">
+            <summary>
+            Adobe FreeHand 11 template file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Ft8">
+            <summary>
+            Adobe FreeHand 8 template file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Ft9">
+            <summary>
+            Adobe FreeHand 9 template file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Gcd">
+            <summary>
+            Generic CADD Drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Gem">
+            <summary>
+            Ventura Publisher GEM vector picture file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Gl2">
+            <summary>
+            Hewlett Packard Graphics Language plotter file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Hpg">
+            <summary>
+            Hewlett Packard Graphics Language plotter file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Hpgl">
+            <summary>
+            Hewlett Packard Graphics Language plotter file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Hpgl2">
+            <summary>
+            Hewlett Packard Graphics Language 2 plotter file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Ima">
+            <summary>
+            EGO - Chart - Autumn Mirage vector graphics file fomrat.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Mif">
+            <summary>
+            Mapinfo graphics file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Odg">
+            <summary>
+            OpenOffice Draw graphic file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatCorel">
+            <summary>
+            Corel vector pattern file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatPatternMaker">
+            <summary>
+            Pattern Maker Cross-Stitch Pattern file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatPatternSmith">
+            <summary>
+            PatternSmith Cutting Pattern file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatArcInfo">
+            <summary>
+            Polygon Attribute Table file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatVectorPattern">
+            <summary>
+            Vector Pattern file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatPaintShop">
+            <summary>
+            Corel Paint Shop Pro Pattern Image File.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatPCStitch">
+            <summary>
+            PCStitch Pattern file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatSmashSimulator">
+            <summary>
+            Smash Simulator Test Pattern file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatCadterns">
+            <summary>
+            Cadterns Sloper file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PatOrchida">
+            <summary>
+            Orchida Embroidery System file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Pct">
+            <summary>
+            Apple Macintosh QuickDraw/PICT bitmap graphics file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Pif">
+            <summary>
+            Vector image GDF file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PixImageSystems">
+            <summary>
+            Image Systems vector file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PixInsetSystems">
+            <summary>
+            Inset Systems raster and vector file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Plo">
+            <summary>
+            Hewlett Packard Graphics Language plotter file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Plot">
+            <summary>
+            Vector graphics file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Plt">
+            <summary>
+            Autodesk AutoCAD HPGL vector graphic plotter file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.PS">
+            <summary>
+            PostScript file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.SdwAmidraw">
+            <summary>
+            Amidraw vector image file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.SdwWordPro">
+            <summary>
+            WordPro drawing file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Shp">
+            <summary>
+            ESRI Shapefile format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Slddwg">
+            <summary>
+            SolidWorks drawing 2D file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.SP">
+            <summary>
+            SignPlot output file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Spa">
+            <summary>
+            FutureSplash Movie file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Stl">
+            <summary>
+            Stereo Lithographic data file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Svf">
+            <summary>
+            Simple Vector file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Svg">
+            <summary>
+            Scalable Vector Graphics file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Sxd">
+            <summary>
+            Vector file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Tdr">
+            <summary>
+            Top Draw vector graphic file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.V2d">
+            <summary>
+            Voucher design file format (Used by the voucher management included in JFire).
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Vrml">
+            <summary>
+            Virtual Reality Modeling Language file format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Wmf">
+            <summary>
+            Windows metafile format.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Wrl">
+            <summary>
+            Virtual Reality Modeling Language file format (vrml).
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.FileTypes.VectorFileType.Xar">
+            <summary>
+            Corel Xara drawing file format.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.GeneralException">
+            <summary>
+            The exception used for any kind of error thrown by TupleGeo libraries.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.GeneralException.#ctor">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.GeneralException"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.GeneralException.#ctor(System.String)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.GeneralException"/> setting its message.
+            </summary>
+            <param name="message">The message of the exception.</param>
+        </member>
+        <member name="M:TupleGeo.General.GeneralException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.GeneralException"/> setting its message
+            and <see cref="T:System.Exception">inner exception</see>.
+            </summary>
+            <param name="message">The message of the exception.</param>
+            <param name="innerException">The inner exception.</param>
+        </member>
+        <member name="M:TupleGeo.General.GeneralException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.GeneralException"/> setting the <see cref="T:System.Runtime.Serialization.SerializationInfo"/>
+            and the <see cref="T:System.Runtime.Serialization.StreamingContext"/>.
+            </summary>
+            <param name="info">The SerializationInfo.</param>
+            <param name="context">The StreamingContext.</param>
+        </member>
+        <member name="T:TupleGeo.General.IValidation">
+            <summary>
+            An interface used by any class that needs to provide validation logic.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.IValidation.Validate">
+            <summary>
+            Call to perform a custom validation.
+            </summary>
+            <remarks>
+            In case problems found during the validation the method
+            must fail returning a relevant exception to the caller.
+            </remarks>
+        </member>
+        <member name="T:TupleGeo.General.Linq.Expressions.Prop">
+            <summary>
+            Prop object provides utility functions related to object properties.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Linq.Expressions.Prop.GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            Gets a property name.
+            </summary>
+            <typeparam name="T">The object whose property name will be retrieved.</typeparam>
+            <param name="expression">
+            The expression used to retrieve the property. Should be like: <code>p => p.PropertyName</code>
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="expression"/> is <c>null</c>.
+            </exception>
+            <returns>A string holding the property name.</returns>
+        </member>
+        <member name="T:TupleGeo.General.Linq.IQueryableExtensions">
+            <summary>
+            Provides extension methods for <see cref="T:System.Linq.IQueryable`1"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Linq.IQueryableExtensions.OrderBy``1(System.Linq.IQueryable{``0},System.String)">
+            <summary>
+            Sorts the elements of a sequence in ascending order by using a specified property.
+            </summary>
+            <typeparam name="TEntity">A class object.</typeparam>
+            <param name="source">The source that needs to be ordered.</param>
+            <param name="orderByProperty">The property name used to order the entities.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="orderByProperty"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>The ordered entities..</returns>
+        </member>
+        <member name="M:TupleGeo.General.Linq.IQueryableExtensions.OrderByDescending``1(System.Linq.IQueryable{``0},System.String)">
+            <summary>
+            Sorts the elements of a sequence in descending order by using a specified property.
+            </summary>
+            <typeparam name="TEntity">A class object.</typeparam>
+            <param name="source">The source that needs to be ordered.</param>
+            <param name="orderByProperty">The property name used to order the entities.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="orderByProperty"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>The ordered entities.</returns>
+        </member>
+        <member name="T:TupleGeo.General.ObjectExtensions">
+            <summary>
+            Contains a set of extension methods for the <see cref="T:System.Object"/> type.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.ObjectExtensions.GetPropertyValueString(System.Object,System.String)">
+            <summary>
+            Gets a <see cref="T:System.String"/> representation of the value of a
+            specified property of an object.
+            </summary>
+            <param name="value">The object whose property value will be got.</param>
+            <param name="propertyName">The name of the property of the object.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="propertyName"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:TupleGeo.General.GeneralException">
+            <para>
+            Thrown when <see cref="T:System.Reflection.PropertyInfo"/> returned for the specified
+            <paramref name="propertyName"/> is <c>null</c>.
+            </para>
+            <para>Thrown when property value could not be converted to <see cref="T:System.String"/>.</para>
+            <para>Thrown when the property type is generic but its arguments are more than one.</para>
+            <para>Thrown when the property type is generic but its argument is not primitive.</para>
+            </exception>
+            <returns>The converted property value to a string.</returns>
+        </member>
+        <member name="T:TupleGeo.General.Reflection.AssemblyExtensions">
+            <summary>
+            Provides extension methods for the Assembly object.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Reflection.AssemblyExtensions.GetExportedTypes(System.Reflection.Assembly,System.Type)">
+            <summary>
+            Gets all exported types of the assembly implementing the specified interface.
+            </summary>
+            <param name="assembly">The Assembly.</param>
+            <param name="interfaceType">
+            The Type of interface whose implementors will be returned.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="interfaceType"/> is <c>null</c>.
+            </exception>
+            <returns>
+            The types implementing the specified interface.
+            </returns>
+        </member>
+        <member name="M:TupleGeo.General.Reflection.AssemblyExtensions.CreateInstance(System.Reflection.Assembly,System.Type)">
+            <summary>
+            Creates an instance of an object implementing the specified interface type.
+            </summary>
+            <param name="assembly">The Assembly.</param>
+            <param name="interfaceType">
+            The Type of interface implemented by the object to be instantiated.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="interfaceType"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <para>
+            Thrown when no type will be found implementing the specified <paramref name="interfaceType"/>.
+            </para>
+            <para>
+            Thrown when more than one types found implementing the specified <paramref name="interfaceType"/>.
+            </para>
+            </exception>
+            <returns>An object instance implementing the specified interface.</returns>
+            <remarks>
+            The method expects only one of the exported types to implement this interface.
+            In case there are more exported types implementing this interface the method
+            will raise an <see cref="T:System.ArgumentException"/> as described in exceptions section.
+            </remarks>
+        </member>
+        <member name="T:TupleGeo.General.Security.CryptographicString">
+            <summary>
+            Defines a cryptographic string object.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.#ctor">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Security.CryptographicString"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.GetKey">
+            <summary>
+            Gets the key used for encrypting / decrypting the <see cref="T:System.String"/>.
+            </summary>
+            <returns>A byte array having the key.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.SetKey(System.Byte[])">
+            <summary>
+            Sets the key used for encrypting / decrypting the <see cref="T:System.String"/>.
+            </summary>
+            <param name="key">The byte array holding the key.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="key"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when the size of the <paramref name="key"/> is <c>0</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.GetInitializationVector">
+            <summary>
+            Gets the initialization vector.
+            </summary>
+            <returns>A byte array having the initialization vector.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.SetInitializationVector(System.Byte[])">
+            <summary>
+            Sets the initialization vector.
+            </summary>
+            <param name="initializationVector">The byte array holding the initialization vector.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="initializationVector"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when the size of the <paramref name="initializationVector"/> is <c>0</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.Encrypt(System.String)">
+            <summary>
+            Encrypts a <see cref="T:System.String"/>.
+            </summary>
+            <param name="original">The string to be encrypted.</param>
+            <exception cref="T:TupleGeo.General.Security.CryptographicStringException">
+            Thrown when <see cref="M:TupleGeo.General.Security.CryptographicString.GetKey">GetKey</see> or
+            <see cref="M:TupleGeo.General.Security.CryptographicString.GetInitializationVector">GetInitializationVector</see>
+            returns <c>null</c>.
+            </exception>
+            <returns>An encrypted string.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.Decrypt(System.String)">
+            <summary>
+            Decrypts a <see cref="T:System.String"/>.
+            </summary>
+            <param name="encrypted">The string to be decrypted.</param>
+            <exception cref="T:TupleGeo.General.Security.CryptographicStringException">
+            Thrown when <see cref="M:TupleGeo.General.Security.CryptographicString.GetKey">GetKey</see> or
+            <see cref="M:TupleGeo.General.Security.CryptographicString.GetInitializationVector">GetInitializationVector</see>
+            returns <c>null</c>.
+            </exception>
+            <returns>A decrypted string.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.GenerateRijndaelSecretKey(System.Security.Cryptography.RijndaelManaged)">
+            <summary>
+            Generates a Rijndael symmetric secret key.
+            </summary>
+            <param name="rijndaelProvider">The RijndaelManaged provider.</param>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicString.GenerateRijndaelSecretInitilizationVector(System.Security.Cryptography.RijndaelManaged)">
+            <summary>
+            Generates a Rijndael initialization vector.
+            </summary>
+            <param name="rijndaelProvider">The RijndaelManaged provider.</param>
+        </member>
+        <member name="T:TupleGeo.General.Security.CryptographicStringException">
+            <summary>
+            The exception used for problems with the <see cref="T:TupleGeo.General.Security.CryptographicString"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicStringException.#ctor">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Security.CryptographicStringException"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicStringException.#ctor(System.String)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Security.CryptographicStringException"/>.
+            </summary>
+            <param name="message">The message of the exception.</param>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicStringException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Security.CryptographicStringException"/>.
+            </summary>
+            <param name="message">The message of the exception.</param>
+            <param name="innerException">The inner exception.</param>
+        </member>
+        <member name="M:TupleGeo.General.Security.CryptographicStringException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Security.CryptographicStringException"/>.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo"/>.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext"/>.</param>
+        </member>
+        <member name="T:TupleGeo.General.Serialization.XmlSerializer">
+            <summary>
+            Provides methods to serialize and deserialize objects to or from xml.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Serialize(System.Object,System.String)">
+            <summary>
+            Serializes the specified object in to the specified file.
+            </summary>
+            <param name="value">The object to serialize in the file.</param>
+            <param name="filePath">The path and file used to serialize the object.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="filePath"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Serialize(System.Object,System.String,System.Text.Encoding)">
+            <summary>
+            Serializes the specified object in to the specified file.
+            </summary>
+            <param name="value">The object to serialize in the file.</param>
+            <param name="filePath">The path and file used to serialize the object.</param>
+            <param name="encoding">The encoding used to write in to the file.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> or <paramref name="encoding"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="filePath"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Serialize(System.Object,System.IO.Stream)">
+            <summary>
+            Serializes the specified object in to the specified <see cref="T:System.IO.Stream"/>.
+            </summary>
+            <param name="value">The object to serialize in the <see cref="T:System.IO.Stream"/>.</param>
+            <param name="stream">The stream used to write the serialized object.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> or <paramref name="stream"/> is <c>null</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Serialize(System.Object,System.IO.Stream,System.Text.Encoding)">
+            <summary>
+            Serializes the specified object in to the specified <see cref="T:System.IO.Stream"/>.
+            </summary>
+            <param name="value">The object to serialize in the <see cref="T:System.IO.Stream"/>.</param>
+            <param name="stream">The stream used to write the serialized object.</param>
+            <param name="encoding">The encoding used to write the serialized object.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> or <paramref name="stream"/> or
+            <paramref name="encoding"/> is <c>null</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Serialize(System.Object)">
+            <summary>
+            Serializes the specified object in to a <see cref="T:System.IO.MemoryStream"/>.
+            </summary>
+            <param name="value">The object to serialize in to the <see cref="T:System.IO.MemoryStream"/>.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="value"/> is <c>null</c>.</exception>
+            <returns>A MemoryStream containing the serialized object.</returns>
+            <remarks>
+            The method might not return the entire object graph in to a serialized string.
+            This is caused by the internal <see cref="T:System.IO.MemoryStream"/> byte buffer length used
+            in the serialization process of this method.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Serialize(System.Object,System.Int32)">
+            <summary>
+            Serializes the specified object in to a <see cref="T:System.IO.MemoryStream"/>.
+            </summary>
+            <param name="value">The object to serialize in to the <see cref="T:System.IO.MemoryStream"/>.</param>
+            <param name="capacity">The initial capacity of the <see cref="T:System.IO.MemoryStream"/>.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="value"/> is <c>null</c>.</exception>
+            <returns>A MemoryStream containing the serialized object.</returns>
+            <remarks>
+            The method might not return the entire object graph in to a serialized string.
+            This is caused by the internal <see cref="T:System.IO.MemoryStream"/> byte buffer length used
+            in the serialization process of this method.
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Serialize(System.Object,System.Byte[]@)">
+            <summary>
+            Serializes the specified object in to a <see cref="T:System.String"/>.
+            </summary>
+            <param name="value">The object to serialize.</param>
+            <param name="buffer">The buffer in to which the object will be serialized.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> or <paramref name="buffer"/> is <c>null</c>.
+            </exception>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.SerializeToString(System.Object)">
+            <summary>
+            Serializes the specified object in to a <see cref="T:System.String"/>.
+            </summary>
+            <param name="value">The object to serialize.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> is <c>null</c>.
+            </exception>
+            <returns>A string containing the serialized object.</returns>
+            <remarks>
+            <para>
+            The method uses <see cref="T:System.Text.UTF8Encoding"/> to serialize the object.
+            </para>
+            <para>
+            The method might not return the entire object graph in to a serialized string.
+            This is caused by the internal <see cref="T:System.IO.MemoryStream"/> byte buffer length used
+            in the serialization process of this method.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.SerializeToString(System.Object,System.Int32)">
+            <summary>
+            Serializes the specified object in to a <see cref="T:System.String"/>.
+            </summary>
+            <param name="value">The object to serialize.</param>
+            <param name="capacity">
+            The initial size of the array bytes used by the internal <see cref="T:System.IO.MemoryStream"/>.
+            </param>`
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> is <c>null</c>.
+            </exception>
+            <returns>A string containing the serialized object.</returns>
+            <remarks>
+            <para>
+            The method uses <see cref="T:System.Text.UTF8Encoding"/> to serialize the object.
+            </para>
+            <para>
+            The method might not return the entire object graph in to a serialized string.
+            This is caused by the internal <see cref="T:System.IO.MemoryStream"/> byte buffer length used
+            in the serialization process of this method.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.SerializeToString(System.Object,System.Text.Encoding)">
+            <summary>
+            Serializes the specified object in to a <see cref="T:System.String"/>.
+            </summary>
+            <param name="value">The object to serialize.</param>
+            <param name="encoding">The encoding used to serialize the object.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> or <paramref name="encoding"/> is <c>null</c>.
+            </exception>
+            <returns>A string containing the serialized object.</returns>
+            <remarks>
+            <para>
+            The method might not return the entire object graph in to a serialized string.
+            This is caused by the internal <see cref="T:System.IO.MemoryStream"/> byte buffer length used
+            in the serialization process of this method.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.SerializeToString(System.Object,System.Text.Encoding,System.Int32)">
+            <summary>
+            Serializes the specified object in to a <see cref="T:System.String"/>.
+            </summary>
+            <param name="value">The object to serialize.</param>
+            <param name="encoding">The encoding used to serialize the object.</param>
+            <param name="capacity">
+            The initial size of the array bytes used by the internal <see cref="T:System.IO.MemoryStream"/>.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="value"/> or <paramref name="encoding"/> is <c>null</c>.
+            </exception>
+            <returns>A string containing the serialized object.</returns>
+            <remarks>
+            <para>
+            The method might not return the entire object graph in to a serialized string.
+            This is caused by the internal <see cref="T:System.IO.MemoryStream"/> byte buffer length used
+            in the serialization process of this method.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Deserialize(System.Type,System.String)">
+            <summary>
+            Deserializes an object with the specified <see cref="T:System.Type"/> from the specified file.
+            </summary>
+            <param name="type">The Type of the object to be deserialized.</param>
+            <param name="filePath">The path and file used to deserialize the object.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="type"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="filePath"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Deserialize(System.Type,System.IO.Stream)">
+            <summary>
+            Deserializes an object of the specified <see cref="T:System.Type"/>
+            from the specified <see cref="T:System.IO.Stream"/>.
+            </summary>
+            <param name="type">The Type of the object to be deserialized.</param>
+            <param name="value">
+            The stream containing the object to be deserialized.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="type"/> or <paramref name="value"/> is <c>null</c>.
+            </exception>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Deserialize(System.Type,System.String,System.Text.Encoding)">
+            <summary>
+            Deserializes an object of the specified <see cref="T:System.Type"/>
+            from the specified <see cref="T:System.String"/>.
+            </summary>
+            <param name="type">The Type of the object to deserialize.</param>
+            <param name="value">
+            The string containing the object to be deserialized.
+            </param>
+            <param name="encoding">
+            The encoding that will be used during the deserialization process.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="type"/> or <paramref name="encoding"/> is <c>null</c>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="value"/> is <c>null</c> or <see cref="F:System.String.Empty"/>.
+            </exception>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:TupleGeo.General.Serialization.XmlSerializer.Deserialize(System.Type,System.Byte[])">
+            <summary>
+            Deserializes an object of the specified <see cref="T:System.Type"/>
+            from the specified <see cref="T:System.Byte"/> array.
+            </summary>
+            <param name="type">The Type of the object to deserialize.</param>
+            <param name="value">
+            The byte array containing the object to be deserialized.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="type"/> or <paramref name="value"/> is <c>null</c>.
+            </exception>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="T:TupleGeo.General.Text.CodePage">
+            <summary>
+            The codepages enumeration.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.Text.CodePage.Windows1252">
+            <summary>
+            The Windows latin 1252 codepage.
+            </summary>
+        </member>
+        <member name="F:TupleGeo.General.Text.CodePage.Greek">
+            <summary>
+            The Greek codepage.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.General.Utilities.MimeTypesHelper">
+            <summary>
+            A helper class for mime types.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Utilities.MimeTypesHelper.GetMimeType(System.String)">
+            <summary>
+            Gets the mime type using a file extension.
+            </summary>
+            <param name="fileExtension">The extension of a file.</param>
+            <returns>A string indicating the mime type.</returns>
+            <remarks>
+            The method uses the windows registry to match file extensions to known mime types.
+            </remarks>
+        </member>
+        <member name="T:TupleGeo.General.Utilities.UniqueCheckedItemsGroup">
+            <summary>
+            Groups a list of items having a Checked property together
+            so as to ensure that only one of these items will be checked at a time.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Utilities.UniqueCheckedItemsGroup.#ctor">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Utilities.UniqueCheckedItemsGroup"/>.
+            </summary>
+        </member>
+        <member name="M:TupleGeo.General.Utilities.UniqueCheckedItemsGroup.#ctor(System.Object)">
+            <summary>
+            Initializes the <see cref="T:TupleGeo.General.Utilities.UniqueCheckedItemsGroup"/> with an item already checked.
+            </summary>
+            <param name="checkedItem">
+            The item in the group being already checked.
+            </param>
+        </member>
+        <member name="M:TupleGeo.General.Utilities.UniqueCheckedItemsGroup.UpdateCheck(System.Object,System.Boolean)">
+            <summary>
+            Updates the Checked property in the group of items.
+            </summary>
+            <param name="item">
+            The item that its Checked property will be set to true.
+            </param>
+            <param name="denyUncheck">
+            Specifies whether the checked item can be unchecked.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="item"/> is <c>null</c>.
+            </exception>
+        </member>
+    </members>
+</doc>

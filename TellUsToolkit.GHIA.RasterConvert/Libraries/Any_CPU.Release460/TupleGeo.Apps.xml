@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TupleGeo.Apps</name>
+    </assembly>
+    <members>
+        <member name="T:TupleGeo.Apps.IModel">
+            <summary>
+            Defines the protocol for a model.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.Apps.IModel.ModelName">
+            <summary>
+            Gets the name of the model.
+            </summary>
+        </member>
+        <member name="T:TupleGeo.Apps.IView">
+            <summary>
+            The interface implemented by all view classes.
+            </summary>
+        </member>
+        <member name="P:TupleGeo.Apps.IView.ViewName">
+            <summary>
+            Gets the name of the view.
+            </summary>
+        </member>
+    </members>
+</doc>
